@@ -1,0 +1,28 @@
+{
+    "name": "slim-propel-twig",
+    "description": "Making a project with slim, propel and twg",
+    "keywords": ["slim, propel, twig"],
+    "homepage": "http://mahediazad.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Mahedi Azad",
+            "email": "mahediazad@gmail.com",
+            "homepage": "http://www.mahediazad.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "slim/slim": "2.*",
+        "slim/views": "0.*",
+        "twig/twig": "1.*",
+        "propel/propel": "2.0.0-alpha2"
+    },
+    "autoload": {
+        "classmap": ["propel/generated-classes/"],
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
+
