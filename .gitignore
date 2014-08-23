@@ -1,0 +1,14 @@
+/vendor/
+!/logs/README.md
+/templates/cache/*
+!/templates/cache/README.md
+.DS_STORE
+
+.idea/*
+
+propel/build.properties
+propel/runtime-conf.xml
+propel/generated-conf/config.php
+
+propel/runtime-conf.php
+propel/build.properties.php

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% if pageTitle != '' %}{{ pageTitle }} | {% endif %}</title>
+
+    {% block csstop %}
+    {% endblock %}
+    {% block jstop %}
+    {% endblock %}
+    {% block extraHeader %}
+    {% endblock %}
+</head>
+<body>
+{% block content %}
+{% endblock %}
+
+{% block cssbottom %}
+{% endblock %}
+
+{% block jsbottom %}
+{% endblock %}
+
+{% block extraFooter %}
+{% endblock %}
+</body>
+</html>
